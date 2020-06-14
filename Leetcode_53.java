@@ -22,6 +22,11 @@ public class Leetcode_53 {
         System.out.println(result);
     }
 
+    /**
+     * 动态规划解法 关键：找出动态规划的状态转移方程
+     * @param nums
+     * @return
+     */
     public static int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
